@@ -84,12 +84,16 @@
             </a>
         </script>
         
-        <script type="text/x-kendo-template" id="announcement-listview-template">
+       <!-- <script type="text/x-kendo-template" id="announcement-listview-template">
             <img class="item-photo" src="${url}" />
             <h3 class="item-title">${title}</h3>
             <p class="item-info">${description}</p>
+        </script> -->
+        <script type="text/x-kendo-template" id="announcement-listview-template">
+            <img class="item-photo" src="http://www.adapptalo.com/test/www/pics/beerimages/${IMAGEN}" />
+            <h3 class="item-title">${CERVESA}</h3>
+            <p class="item-info">${CERVESERA}</p>
         </script>
-        
 		<script type="text/x-kendo-template" id="stores-listview-template">
 	        <p>#:address.replace(/(&nbsp)/g," ")#</p>
 		</script>
